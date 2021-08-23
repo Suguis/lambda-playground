@@ -77,6 +77,6 @@ cd lambda-playground
 stack build
 ```
 
-If you want to have it installed in your environment to run it easily as a command (storing it in `/home/<user>/bin`), run `stack install`. After that run the interpreter with `lambda-playground`.
+If you want to have it installed in your environment to run it easily as a command (storing it in `/home/<user>/bin`), run `stack install`. After that run the interpreter with the command `lambda-playground`.
 
 If you only want to run it, run `stack run` in the cloned folder.
