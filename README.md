@@ -2,6 +2,14 @@
 
 A simple REPL to experiment with the untyped lambda calculus. I made it for me to play with it and understand it better while reading the *Types and Programming Languages* book.
 
+    TODO: Fix this wrong behavior!:
+    
+    λ> ((\a.\x.a) x) c
+    (λa.λx.a) x c
+    (λx.x) c
+    c
+
+
 ## Syntax and usage
 
 The syntax is very simple. There are only three types of terms, which are **variables**, **abstractions** and **applications**, and two types of statements, **evaluations** and **assignements**.
