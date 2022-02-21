@@ -2,14 +2,6 @@
 
 A simple REPL to experiment with the untyped lambda calculus. I made it for me to play with it and understand it better while reading the *Types and Programming Languages* book.
 
-    TODO: Fix this wrong behavior!:
-    
-    λ> ((\a.\x.a) x) c
-    (λa.λx.a) x c
-    (λx.x) c
-    c
-
-
 ## Syntax and usage
 
 The syntax is very simple. There are only three types of terms, which are **variables**, **abstractions** and **applications**, and two types of statements, **evaluations** and **assignements**.
@@ -88,3 +80,7 @@ stack build
 If you want to have it installed in your environment to run it easily as a command (storing it in `/home/<user>/bin`), run `stack install`. After that run the interpreter with the command `lambda-playground`.
 
 If you only want to run it, run `stack run` in the cloned folder.
+
+## References
+- Rob Nederpelt, Herman Geuvers. Type Theory and Formal Proof, an introduction.
+- Benjamin C. Pierce. Types and Programming Languages.
