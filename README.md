@@ -2,6 +2,10 @@
 
 A simple REPL to experiment with the untyped lambda calculus. I made it for me to play with it and understand it better while reading the *Types and Programming Languages* book.
 
+## Preview
+
+[![asciicast](https://asciinema.org/a/4nsE67XK2PxGY0Fs4yh4xofU3.svg)](https://asciinema.org/a/4nsE67XK2PxGY0Fs4yh4xofU3)
+
 ## Syntax and usage
 
 The syntax is very simple. There are only three types of terms, which are **variables**, **abstractions** and **applications**, and two types of statements, **evaluations** and **assignements**.
